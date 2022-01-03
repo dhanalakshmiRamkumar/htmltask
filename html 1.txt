@@ -1,0 +1,357 @@
+
+   HTML
+  1) bugs
+  answer:
+  <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+         <body>
+                guvi
+        
+    
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            <div>
+                Guvi Geek Network
+               
+            </div>
+        </body>
+    </html>
+	
+	<!--tags--> before the code body in placed inside the head tag now it placed after head tag closed
+	answer for above code:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+
+
+2) answer:
+   <html lang="en">
+    <head>
+        <title>Document</title>
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+	answer:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+explaination: title close tag was missing in the code 
+
+3) create a google.com
+code: <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchor</title>
+  </head>
+  <body>
+    
+    
+    <!-- //Target =>Blank -->
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <!-- //Open your link in new tab -->
+  </body>
+</html>
+answer:
+http://127.0.0.1:5500/index.html
+
+4) code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+        <li>Programming Language</li>
+
+    <ul type = "circle">
+        <li>JavaScript</li>
+    
+            <ol type = "a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+    </ul>
+    
+    <ul type = "circle">
+        <li>Python</li>
+    
+            <ol type = "a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+    </ul>
+    
+    <ul type = "circle">
+        <li>Java</li>
+    
+            <ol type = "a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+    </ul>
+    
+    <li>Database</li>
+
+      <ul type = "circle">
+                <li>MySOL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+    
+        </ul>
+    
+  
+        
+      
+       
+</body>
+</html>
+answer:
+  http://127.0.0.1:5500/index.html
+  
+  
+  5)code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <mark>HTML & CSS is awesome </mark>
+</body>
+</html>
+answer: HTML & CSS is awesome
+
+6)
+code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>Health Chart</head>
+   <table  border="1" cellspacing="0"> 
+   <thead>
+       
+       <tr>
+           <th rowspan="2">State of Health</th>
+           <th colspan="2" scope="colgroup">fasting value</th>
+               
+           
+           <th rowspan="1" scope="rowgroup">After eating</th>
+        </tr>
+        <tr>
+            <th scope='col'>Miniimum</th>
+            <th scope='col'>Maximum</th>
+            <th scope='row'>2 hours after eating</th>
+        </tr>
+       
+        
+   </thead>
+   <tbody>
+       <tr>
+           
+       </tr>
+       <tr>
+           <td>healthy</td>
+           <td>70</td>
+           <td>100</td>
+           <td>Less than 140</td>
+       </tr>
+       <tr>
+        <td>Pre-diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>more than 126</td>
+        <td>N/A</td>
+        <td>more than 200</td>
+    </tr>
+
+   </tbody>
+   </table>
+</body>
+</html>
+
+7)code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script scr="script.js"> </script>
+</head>
+<body>
+    <h1 align = "center">Contact form</h1>
+    <form action=" ">
+        Name<input type ="text" name="text" id="text"/>
+    </br>
+</br>
+        mailId<input type="email" name="email" id="email">
+</br>
+</br>
+        phonenumber<input type ="phonenumber" name="number" id="number">
+</br>
+</br>
+        <input type ="submit" name="button" id="button">
+    </form>
+</body>
+</html>
+
+
+8)code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script scr="script.js"> </script>
+</head>
+<body>
+    <h1 align = "center">Radio type</h1>
+    <form action=" ">
+        <label for="">employee type</label>
+        <br />
+       salaried<input type="radio" name="salaried" id="salaried"/>
+       
+       own business<input type="radio" name="own business" id="own business"/>
+    </form>
+</body>
+</html>
+9) default input element
+ code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script scr="script.js"> </script>
+</head>
+<body>
+    <h1 align = "center">HTML INPUT TYPE</h1>
+    <form action=" ">
+        <label for="">employee </label>
+        <br />
+        name<input type="text" name="text" id="text" value="john"/>
+        <br />
+        
+
+        male<input type="color" id="color" name="color" value=""/> 
+        female<input type="color" id="color" name="color" value=""/>
+        <br/>
+        date<input type="date" name="text" id="text" value="1995-11-25"/>
+        <br />
+        email<input type="email" name="text" id="text" value="a@gmail.com"/>
+        <br />
+        password<input type="password" name="password" id="password" value="password"/>
+        <br/>
+        image<input type="image" name="image" id="image" value="pyramid.jpg"/>
+        <br />
+        week<input type="week" name="sunday" id="sunday" value="2021-W24"/>
+        <br />
+        <input type="time" name="22:12:23" id="22:12:23" value="12:00:00"/>
+        <br />
+        link<input type="url" name="url" id="url" value="https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md"/>
+        <br />
+        search<input type="search" name="google" id="google" value="facebook"/>
+        <br/>
+        submit<input type="submit" name="submit" id="submit" value="submit"/>
+        <br />
+        number<input type="number" name="number" id="number" value="1"/>
+        <br />
+        range<input type="range" name="range" id="range" value="0"/>
+        </form>
+</body>
+</html>
+10)
+form for all input element
+code:
+  !DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script scr="script.js"> </script>
+</head>
+<body>
+    <h1 align = "center">HTML INPUT TYPE</h1>
+    <form action=" ">
+        <label for="">employee </label>
+        <br />
+        name<input type="text" name="text" id="text" value="john"/>
+        <br />
+        
+
+        male<input type="color" id="color" name="color" /> 
+        female<input type="color" id="color" name="color" />
+        <br/>
+        date<input type="date" name="text" id="text" />
+        <br />
+        email<input type="email" name="text" id="text" />
+        <br />
+        password<input type="password" name="password" id="password" />
+        <br/>
+        image<input type="image" name="image" id="image" />
+        <br />
+        week<input type="week" name="week" id="week" />
+        <br />
+        <input type="time" name="22:12:23" id="22:12:23" />
+        <br />
+        link<input type="url" name="url" id="url" />
+        <br />
+        search<input type="search" name="google" id="google" />
+        <br/>
+        submit<input type="submit" name="submit" id="submit" />
+        <br />
+        number<input type="number" name="number" id="number"/>
+        <br />
+        range<input type="range" name="range" id="range"/>
+        <br />
+        radio type<br/>
+        male<input type="radio" name="radio" id="radio" /> 
+        female<input type="radio" name="radio" id="radio" />
+        <br />
+        feedback<input type="tel" name="tel" id="tel"/>
+        <br/>
+        file<input type="file" name="file" id="file"/>
+        </form>
+</body>
+</html>
